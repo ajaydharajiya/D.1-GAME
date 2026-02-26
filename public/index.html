@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3 Patti D1 Game – Play & Win Real Cash | Best Teen Patti App 2025</title>
+  <meta name="description" content="Play 3 Patti D1 Game online and win real cash prizes. India's most exciting Teen Patti card game app with daily bonuses, tournaments & instant withdrawals. Download now and get ₹20 free!" />
+  <meta name="keywords" content="3 patti game, teen patti, D1 game, 3 patti real cash, teen patti online, card game india, 3 patti download, win real money" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="3 Patti D1 Game – Play & Win Real Cash" />
+  <meta property="og:description" content="Join millions of players on 3 Patti D1 – India's #1 Teen Patti app. Get ₹20 bonus on signup!" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg-from: #a01040;
+      --bg-to:   #d43060;
+      --card-bg: rgba(255,255,255,0.10);
+      --card-border: rgba(255,255,255,0.18);
+      --btn: #e8305a;
+      --text: #ffffff;
+      --muted: rgba(255,255,255,0.72);
+      --divider: rgba(255,255,255,0.12);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, #a01040 0%, #d43060 50%, #b02050 100%);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse at 10% 0%, rgba(255,255,255,0.08) 0%, transparent 55%),
+        radial-gradient(ellipse at 90% 100%, rgba(80,0,30,0.35) 0%, transparent 55%);
+    }
+
+    .bg-cards { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+    .bg-card {
+      position: absolute; width: 56px; height: 78px;
+      background: rgba(255,255,255,0.06); border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.12);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem; opacity: 0.2;
+      animation: floatCard linear infinite;
+    }
+    @keyframes floatCard {
+      0%   { transform: translateY(110vh) rotate(var(--r)); }
+      100% { transform: translateY(-20vh) rotate(calc(var(--r) + 25deg)); }
+    }
+
+    header {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 5%;
+      backdrop-filter: blur(14px);
+      background: rgba(120,15,45,0.6);
+      border-bottom: 1px solid var(--divider);
+    }
+    .logo { font-family: 'Playfair Display', serif; font-size: 1.55rem; font-weight: 900; color: #fff; letter-spacing: 1px; }
+    .logo span { color: #ffd6e7; }
+    nav a { color: rgba(255,255,255,0.82); text-decoration: none; margin-left: 1.8rem; font-size: 0.88rem; font-weight: 500; transition: color .2s; }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      position: relative; z-index: 5;
+      min-height: 92vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 5rem 5% 4rem;
+    }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.28);
+      color: #fff; font-size: .72rem; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      padding: .4rem 1.2rem; border-radius: 50px; margin-bottom: 1.8rem;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.25); }
+      50%      { box-shadow: 0 0 0 10px rgba(255,255,255,0); }
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.8rem, 8vw, 5.8rem);
+      font-weight: 900; line-height: 1.06; margin-bottom: 1.2rem; color: #fff;
+    }
+    h1 .line2 {
+      display: block;
+      background: linear-gradient(90deg, #fff 0%, #ffd6e7 60%, #ffaad0 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+
+    .hero-sub { font-size: clamp(.95rem, 2vw, 1.15rem); color: var(--muted); max-width: 540px; line-height: 1.75; margin-bottom: 2.8rem; }
+
+    .bonus-card {
+      background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 16px; padding: 1.1rem 2rem; margin-bottom: 2.5rem;
+      display: inline-flex; align-items: center; gap: 1rem; backdrop-filter: blur(6px);
+      animation: shimmer 3s ease-in-out infinite;
+    }
+    @keyframes shimmer {
+      0%,100% { border-color: rgba(255,255,255,0.25); }
+      50%      { border-color: rgba(255,255,255,0.55); box-shadow: 0 0 20px rgba(255,255,255,0.1); }
+    }
+    .bonus-icon { font-size: 2rem; }
+    .bonus-text .b1 { font-size: 1.3rem; font-weight: 700; color: #fff; }
+    .bonus-text .b2 { font-size: .78rem; color: var(--muted); }
+
+    .cta-wrap { display: flex; flex-direction: column; align-items: center; gap: .8rem; }
+
+    .btn-download {
+      display: inline-flex; align-items: center; gap: .8rem;
+      background: #fff; color: var(--btn);
+      font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 700;
+      padding: 1rem 2.8rem; border-radius: 50px; text-decoration: none; border: none; cursor: pointer;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.25);
+      transition: transform .2s, box-shadow .2s, background .2s;
+      position: relative; overflow: hidden;
+    }
+    .btn-download::before {
+      content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(232,48,90,0.15), transparent);
+      animation: sweep 2.5s ease-in-out infinite;
+    }
+    @keyframes sweep { 0%{left:-100%} 50%{left:100%} 100%{left:100%} }
+    .btn-download:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 8px 40px rgba(0,0,0,0.35); background: #ffd6e7; }
+    .btn-icon { font-size: 1.2rem; }
+    .btn-sub { font-size: .7rem; color: rgba(255,255,255,0.6); }
+
+    .stats {
+      position: relative; z-index: 5;
+      display: flex; justify-content: center; flex-wrap: wrap;
+      margin: 0 5% 5rem;
+      background: rgba(255,255,255,0.10); border: 1px solid var(--divider);
+      border-radius: 20px; overflow: hidden; backdrop-filter: blur(8px);
+    }
+    .stat-item { flex: 1; min-width: 140px; padding: 1.8rem 1.5rem; text-align: center; border-right: 1px solid var(--divider); }
+    .stat-item:last-child { border-right: none; }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 900; color: #fff; display: block; }
+    .stat-lbl { font-size: .75rem; color: var(--muted); font-weight: 500; }
+
+    .section { position: relative; z-index: 5; padding: 5rem 5%; }
+    .sec-label { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #ffd6e7; margin-bottom: .8rem; }
+    .sec-title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 900; color: #fff; margin-bottom: 1rem; }
+    .sec-desc { color: var(--muted); max-width: 560px; line-height: 1.7; margin-bottom: 3rem; }
+
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); gap: 1.4rem; }
+    .feat-card {
+      background: var(--card-bg); border: 1px solid var(--card-border);
+      border-radius: 18px; padding: 2rem; backdrop-filter: blur(6px);
+      transition: transform .3s, border-color .3s, box-shadow .3s;
+    }
+    .feat-card:hover { transform: translateY(-6px); border-color: rgba(255,255,255,0.4); box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
+    .feat-icon { font-size: 2.4rem; margin-bottom: 1rem; display: block; }
+    .feat-title { font-weight: 700; font-size: 1.02rem; margin-bottom: .45rem; color: #fff; }
+    .feat-desc { font-size: .84rem; color: var(--muted); line-height: 1.65; }
+
+    .steps { display: flex; flex-direction: column; gap: 1.4rem; max-width: 700px; }
+    .step {
+      display: flex; align-items: flex-start; gap: 1.5rem;
+      background: var(--card-bg); border: 1px solid var(--card-border);
+      border-radius: 14px; padding: 1.5rem; backdrop-filter: blur(6px); transition: border-color .3s;
+    }
+    .step:hover { border-color: rgba(255,255,255,0.4); }
+    .step-num { width: 48px; height: 48px; flex-shrink: 0; background: #fff; color: var(--btn); font-weight: 900; font-family: 'Playfair Display', serif; font-size: 1.3rem; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+    .step h3 { font-size: 1rem; font-weight: 600; margin-bottom: .3rem; color: #fff; }
+    .step p  { font-size: .84rem; color: var(--muted); line-height: 1.6; }
+
+    .seo-section { position: relative; z-index: 5; padding: 4rem 5%; background: rgba(100,0,40,0.35); border-top: 1px solid var(--divider); }
+    .seo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; max-width: 1100px; margin: 0 auto; }
+    .seo-block h2 { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: #ffd6e7; margin-bottom: .8rem; }
+    .seo-block p { font-size: .87rem; color: var(--muted); line-height: 1.8; }
+
+    .final-cta { position: relative; z-index: 5; text-align: center; padding: 6rem 5%; background: rgba(80,0,30,0.3); }
+    .final-cta h2 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 900; color: #fff; margin-bottom: 1rem; }
+    .final-cta p { color: var(--muted); margin-bottom: 2.5rem; font-size: 1rem; }
+
+    footer { position: relative; z-index: 5; padding: 2rem 5%; border-top: 1px solid var(--divider); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: rgba(100,0,40,0.25); }
+    footer p { font-size: .78rem; color: var(--muted); }
+    .disclaimer { font-size: .7rem; color: rgba(255,255,255,0.4); max-width: 600px; line-height: 1.5; margin-top: .5rem; }
+
+    .live-chip { position: fixed; bottom: 2rem; right: 2rem; z-index: 200; background: rgba(120,15,45,0.88); border: 1px solid rgba(255,255,255,0.3); border-radius: 50px; padding: .7rem 1.4rem; display: flex; align-items: center; gap: .6rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35); text-decoration: none; color: #fff; font-size: .8rem; font-weight: 600; backdrop-filter: blur(10px); transition: transform .2s; }
+    .live-chip:hover { transform: scale(1.05); }
+    .live-dot { width: 8px; height: 8px; background: #4ade80; border-radius: 50%; animation: blink 1.2s ease-in-out infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+
+    .alt-bg { background: rgba(100,0,40,0.2); }
+
+    @media (max-width: 600px) {
+      nav { display: none; }
+      .stats { margin: 0 3% 3rem; }
+      .final-cta { padding: 4rem 5%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="bg-cards" id="bgCards"></div>
+
+<header>
+  <div class="logo">3Patti <span>D1</span></div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#how-to-play">How to Play</a>
+    <a href="#download">Download</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">🔴 Live Players: <span id="liveCount">24,381</span></div>
+  <h1>India's #1<br/><span class="line2">Teen Patti Experience</span></h1>
+  <p class="hero-sub">Play 3 Patti with millions of real players, win real cash every day. Experience the authentic thrill of Teen Patti on D1 Game — India's most trusted card gaming platform.</p>
+  <div class="bonus-card">
+    <div class="bonus-icon">🎁</div>
+    <div class="bonus-text">
+      <div class="b1">₹20 Welcome Bonus</div>
+      <div class="b2">Your friend has sent you ₹20. Claim it now by binding your phone!</div>
+    </div>
+  </div>
+  <div class="cta-wrap" id="download">
+    <a class="btn-download" href="https://heu.njmahhlcpqv.xyz/share?code=9941567&redirect=https://app.d1.game" target="_blank" rel="noopener" title="Download 3 Patti D1 Game APK">
+      <span class="btn-icon">⬇️</span>Download & Claim ₹20 Free
+    </a>
+    <span class="btn-sub">Free Download • No Hidden Charges • Instant Signup</span>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="stat-item"><span class="stat-num" data-target="50">0</span><span class="stat-lbl">Million+ Downloads</span></div>
+  <div class="stat-item"><span class="stat-num" data-target="24">0</span><span class="stat-lbl">Thousand Active Now</span></div>
+  <div class="stat-item"><span class="stat-num" data-target="100">0</span><span class="stat-lbl">% Secure & Fair</span></div>
+  <div class="stat-item"><span class="stat-num" data-target="5">0</span><span class="stat-lbl">Star Rated App</span></div>
+</div>
+
+<section class="section" id="features">
+  <div class="sec-label">Why D1 Game</div>
+  <h2 class="sec-title">Built for True Card Players</h2>
+  <p class="sec-desc">Everything you love about Teen Patti, now on mobile. Fast, fair, and rewarding — every hand you play.</p>
+  <div class="features-grid">
+    <div class="feat-card"><span class="feat-icon">🃏</span><div class="feat-title">Classic 3 Patti Gameplay</div><p class="feat-desc">Authentic rules, smooth animations and the same excitement you get from real cards — now on your phone anytime, anywhere.</p></div>
+    <div class="feat-card"><span class="feat-icon">💰</span><div class="feat-title">Real Cash Winnings</div><p class="feat-desc">Win real money every game. Fast and secure withdrawals directly to your bank account or UPI, processed within minutes.</p></div>
+    <div class="feat-card"><span class="feat-icon">🏆</span><div class="feat-title">Daily Tournaments</div><p class="feat-desc">Compete in daily and weekly Teen Patti tournaments with massive prize pools. Climb the leaderboard and show off your skills.</p></div>
+    <div class="feat-card"><span class="feat-icon">🎁</span><div class="feat-title">Bonuses & Rewards</div><p class="feat-desc">Daily login bonuses, referral rewards, and special festival offers. The more you play on D1, the more you earn.</p></div>
+    <div class="feat-card"><span class="feat-icon">🔒</span><div class="feat-title">100% Safe & Secure</div><p class="feat-desc">Bank-grade encryption protects your account and money at all times. Fairplay certified — no bots, no cheating, ever.</p></div>
+    <div class="feat-card"><span class="feat-icon">📱</span><div class="feat-title">Smooth Mobile Experience</div><p class="feat-desc">Optimised for all Android phones. Great even on slow connections — no lag, no crashes, just pure card game fun.</p></div>
+  </div>
+</section>
+
+<section class="section alt-bg" id="how-to-play">
+  <div class="sec-label">Getting Started</div>
+  <h2 class="sec-title">How to Play 3 Patti on D1 Game</h2>
+  <p class="sec-desc">New to Teen Patti? Here's everything you need to know to start winning in minutes.</p>
+  <div class="steps">
+    <div class="step"><div class="step-num">1</div><div><h3>Download D1 Game App</h3><p>Click the Download button, install the APK on your Android device and create your free account in under 60 seconds.</p></div></div>
+    <div class="step"><div class="step-num">2</div><div><h3>Claim Your ₹20 Welcome Bonus</h3><p>After binding your phone number, your ₹20 referral bonus is instantly credited — no deposit needed to start playing.</p></div></div>
+    <div class="step"><div class="step-num">3</div><div><h3>Join a 3 Patti Table</h3><p>Choose from beginner tables, high-stake rooms or live tournaments. Pick your bet, get 3 cards and start playing!</p></div></div>
+    <div class="step"><div class="step-num">4</div><div><h3>Win & Withdraw</h3><p>Beat other players, collect your winnings, and withdraw cash directly to UPI or your bank — fast and hassle-free.</p></div></div>
+  </div>
+</section>
+
+<div class="seo-section">
+  <div class="seo-grid">
+    <div class="seo-block"><h2>What is 3 Patti D1 Game?</h2><p>3 Patti D1 Game is one of India's most popular online Teen Patti platforms, offering real-money card games in a secure and exciting environment. Also known as Teen Patti (Three Cards), this classic Indian card game is loved across the country. D1 Game brings the authentic experience to your smartphone with live tables, daily tournaments, and instant cash prizes.</p></div>
+    <div class="seo-block"><h2>Why Play Teen Patti Online?</h2><p>Online 3 Patti lets you play anytime, from anywhere — no need for physical cards or a group of friends. D1 Game connects you with thousands of real players from across India. Whether you prefer low-stakes casual games or high-roller rooms, there's always a table open. Compete, win real cash, and improve your skills every day.</p></div>
+    <div class="seo-block"><h2>3 Patti Tips for Beginners</h2><p>Start with lower-stake tables to learn the rhythm of the game. Practice reading your opponents — bluffing is as important as having good cards. Manage your chips wisely and don't go all-in too early. Take advantage of daily bonuses on D1 Game to extend your playtime and maximize your winnings.</p></div>
+    <div class="seo-block"><h2>Safe & Responsible Gaming</h2><p>D1 Game uses certified Random Number Generators (RNG) to ensure every hand is completely random and unbiased. All transactions are secured with industry-standard encryption. Play within your limits and enjoy 3 Patti as an entertainment experience. Set deposit limits and use our responsible gaming tools if needed.</p></div>
+  </div>
+</div>
+
+<section class="final-cta">
+  <h2>Ready to Win?<br/>Download D1 Game Now</h2>
+  <p>Your ₹20 referral bonus is waiting. Join millions of Teen Patti players today.</p>
+  <a class="btn-download" href="https://heu.njmahhlcpqv.xyz/share?code=9941567&redirect=https://app.d1.game" target="_blank" rel="noopener" title="Download 3 Patti D1 Game">
+    <span class="btn-icon">🎮</span>Download Free & Get ₹20
+  </a>
+</section>
+
+<footer>
+  <div>
+    <div class="logo" style="font-size:1.1rem;">3Patti <span>D1</span></div>
+    <p class="disclaimer" style="margin-top:.5rem;">This game involves financial risk. Play responsibly. For 18+ only. Intended for entertainment purposes.</p>
+  </div>
+  <p>© 2025 3 Patti D1 Game. All rights reserved.</p>
+</footer>
+
+<a class="live-chip" href="https://heu.njmahhlcpqv.xyz/share?code=9941567&redirect=https://app.d1.game" target="_blank" rel="noopener">
+  <span class="live-dot"></span>Play Live Now
+</a>
+
+<script>
+  const suits = ['♠','♥','♦','♣','🃏'];
+  const container = document.getElementById('bgCards');
+  for (let i = 0; i < 12; i++) {
+    const el = document.createElement('div');
+    el.className = 'bg-card';
+    el.textContent = suits[Math.floor(Math.random() * suits.length)];
+    const dur = 16 + Math.random() * 18, delay = Math.random() * -30;
+    const left = Math.random() * 100, rot = (Math.random() - 0.5) * 60;
+    el.style.cssText = `left:${left}%;--r:${rot}deg;animation-duration:${dur}s;animation-delay:${delay}s;`;
+    container.appendChild(el);
+  }
+  setInterval(() => {
+    const base = 24000 + Math.floor(Math.random() * 2000);
+    document.getElementById('liveCount').textContent = base.toLocaleString('en-IN');
+  }, 3000);
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target, target = +el.dataset.target;
+      let current = 0; const step = target / 60;
+      const timer = setInterval(() => {
+        current = Math.min(current + step, target);
+        el.textContent = Math.floor(current) + (target===5?'★':target===100?'%':'M+');
+        if (current >= target) clearInterval(timer);
+      }, 20);
+      observer.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('[data-target]').forEach(n => observer.observe(n));
+</script>
+</body>
+</html>
