@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ajay/d1-game:latest
+          tags: ajaydharajiya/d1.game:latest
